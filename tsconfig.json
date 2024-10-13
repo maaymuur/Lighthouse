@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+      "target": "es5",                          // Версия ECMAScript
+      "module": "ESNext",                     // Модульная система
+      "jsx": "react-jsx",                       // Поддержка JSX
+      "strict": true,                           // Включение строгой типизации
+      "esModuleInterop": true,                  // Совместимость с модулями
+      "skipLibCheck": true,                     // Пропуск проверки библиотек
+      "forceConsistentCasingInFileNames": true // Проверка регистра имен файлов
+    },
+    "include": [
+      "src/**/*" // Включение всех файлов в папке src
+    ],
+    "exclude": [
+      "node_modules" // Исключение папки node_modules
+    ]
+  }
+  
